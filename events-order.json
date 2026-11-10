@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /events-order.json
+---
+{% capture order_text %}{% include_relative Предстоящие-события/.order %}{% endcapture %}{{ order_text | jsonify }}
