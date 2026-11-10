@@ -84,7 +84,7 @@ permalink: /sprint-capacity/
     for(const date of dates) {
       const key=iso(date), button=document.createElement('button');
       button.type='button';button.textContent=date.getUTCDate();button.disabled=!workdays.has(date.getUTCDay());button.classList.toggle('off',off.has(key));
-      button.setAttribute('aria-label',key+(off.has(key)?' · отсутствие':' · рабочий день'));button.setAttribute('aria-pressed',String(off.has(key)));
+      button.setAttribute('aria-label',key+(button.disabled?' · нерабочий день':off.has(key)?' · отсутствие':' · рабочий день'));button.setAttribute('aria-pressed',String(off.has(key)));
       button.addEventListener('click',()=>{off.has(key)?off.delete(key):off.add(key);el('days-off').value=Array.from(off).sort().join('\n');render();});calendar.append(button);
     }
   }
