@@ -30,8 +30,8 @@
 (function(){
   const lists=Array.from(document.querySelectorAll('[data-event-list]')).filter(list=>list.children.length>0);
   if(lists.length===0) return;
-  fetch({{ '/Предстоящие-события/.order' | relative_url | jsonify }},{cache:'no-cache'})
-    .then(r=>r.ok?r.text():null)
+  fetch({{ '/events-order.json' | relative_url | jsonify }},{cache:'no-cache'})
+    .then(r=>r.ok?r.json():null)
     .then(text=>{
       if(text===null) return;
       const names=text.split(/\r?\n/).map(x=>x.trim()).filter(x=>x && !x.startsWith('#'));
