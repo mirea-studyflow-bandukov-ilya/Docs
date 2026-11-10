@@ -1,0 +1,270 @@
+{
+  "title": "Поставка Веб-приложения",
+  "asOf": "2026-11-11",
+  "snapshot": true,
+  "source": "Authenticated DOM exports of native GitHub Project view 9, captured before and after replanning",
+  "baselineNote": "The six active PBIs were captured before replanning. Closed control #32 was added afterward and is displayed unchanged in both scenarios.",
+  "links": {
+    "roadmap": "https://github.com/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/10",
+    "table": "https://github.com/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/9",
+    "report": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/blob/main/docs/practice-3.md"
+  },
+  "marker": {
+    "title": "Команда в отпуске",
+    "date": "2026-11-27",
+    "color": "#a23bcc",
+    "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/milestone/7"
+  },
+  "teams": [
+    {
+      "name": "PUL-Web",
+      "url": "https://github.com/orgs/mirea-studyflow-bandukov-ilya/teams/pul-web/members",
+      "iterationField": "Iteration",
+      "iterations": [
+        {
+          "name": "Sprint 1",
+          "start": "2026-10-26",
+          "end": "2026-11-08"
+        },
+        {
+          "name": "Sprint 2",
+          "start": "2026-11-09",
+          "end": "2026-11-22"
+        },
+        {
+          "name": "Sprint 3",
+          "start": "2026-11-23",
+          "end": "2026-12-06"
+        },
+        {
+          "name": "Sprint 4",
+          "start": "2026-12-07",
+          "end": "2026-12-20"
+        }
+      ]
+    },
+    {
+      "name": "External integrations",
+      "url": "https://github.com/orgs/mirea-studyflow-bandukov-ilya/teams/external-integrations/members",
+      "iterationField": "External iteration",
+      "iterations": [
+        {
+          "name": "Итерация 50",
+          "start": "2026-11-11",
+          "end": "2026-11-27"
+        },
+        {
+          "name": "Итерация 51",
+          "start": "2026-11-30",
+          "end": "2026-12-18"
+        }
+      ]
+    }
+  ],
+  "dependency": {
+    "predecessor": 180,
+    "successor": 31,
+    "nativeRelation": "blocked_by",
+    "implementationComplete": false
+  },
+  "before": [
+    {
+      "number": 174,
+      "title": "Как клиент, я хочу просмотреть новые учебники",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/174",
+      "assignee": "Bankin1",
+      "status": "Approved",
+      "type": "PBI",
+      "iteration": "Sprint 2",
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 2"
+    },
+    {
+      "number": 175,
+      "title": "Как клиент, я хочу видеть недавно просмотренные учебники",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/175",
+      "assignee": null,
+      "status": "Утверждено QA",
+      "type": "PBI",
+      "iteration": "Sprint 2",
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 2"
+    },
+    {
+      "number": 176,
+      "title": "Как клиент, я хочу запрашивать новые материалы",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/176",
+      "assignee": null,
+      "status": "Утверждено QA",
+      "type": "PBI",
+      "iteration": "Sprint 2",
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 2"
+    },
+    {
+      "number": 179,
+      "title": "Интеграция с метеорологической службой",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/179",
+      "assignee": null,
+      "status": "New",
+      "type": "PBI",
+      "iteration": "Итерация 50",
+      "start": "2026-11-11",
+      "end": "2026-11-27",
+      "area": "External integrations",
+      "team": "External integrations",
+      "milestone": null
+    },
+    {
+      "number": 180,
+      "title": "Интеграция с корпоративными данными доставок",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/180",
+      "assignee": null,
+      "status": "New",
+      "type": "PBI",
+      "iteration": "Итерация 51",
+      "start": "2026-11-30",
+      "end": "2026-12-18",
+      "area": "External integrations",
+      "team": "External integrations",
+      "milestone": null
+    },
+    {
+      "number": 31,
+      "title": "Provide customers the ability to track status of the package",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/31",
+      "assignee": null,
+      "status": "New",
+      "type": "PBI",
+      "iteration": "Sprint 1",
+      "start": "2026-10-26",
+      "end": "2026-11-08",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 1"
+    },
+    {
+      "number": 32,
+      "title": "As a customer, I would like to have the ability to send my items as gift",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/32",
+      "assignee": null,
+      "status": "Done",
+      "type": "PBI",
+      "iteration": "Sprint 2",
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 2"
+    }
+  ],
+  "after": [
+    {
+      "number": 174,
+      "title": "Как клиент, я хочу просмотреть новые учебники",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/174",
+      "assignee": "Bankin1",
+      "status": "Approved",
+      "type": "PBI",
+      "iteration": "Sprint 2",
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 2"
+    },
+    {
+      "number": 175,
+      "title": "Как клиент, я хочу видеть недавно просмотренные учебники",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/175",
+      "assignee": null,
+      "status": "Утверждено QA",
+      "type": "PBI",
+      "iteration": "Sprint 2",
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 2"
+    },
+    {
+      "number": 176,
+      "title": "Как клиент, я хочу запрашивать новые материалы",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/176",
+      "assignee": null,
+      "status": "Утверждено QA",
+      "type": "PBI",
+      "iteration": "Sprint 2",
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 2"
+    },
+    {
+      "number": 179,
+      "title": "Интеграция с метеорологической службой",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/179",
+      "assignee": null,
+      "status": "New",
+      "type": "PBI",
+      "iteration": "Итерация 51",
+      "start": "2026-11-30",
+      "end": "2026-12-18",
+      "area": "External integrations",
+      "team": "External integrations",
+      "milestone": null
+    },
+    {
+      "number": 180,
+      "title": "Интеграция с корпоративными данными доставок",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/180",
+      "assignee": null,
+      "status": "New",
+      "type": "PBI",
+      "iteration": "Итерация 50",
+      "start": "2026-11-11",
+      "end": "2026-11-27",
+      "area": "External integrations",
+      "team": "External integrations",
+      "milestone": "Команда в отпуске"
+    },
+    {
+      "number": 31,
+      "title": "Provide customers the ability to track status of the package",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/31",
+      "assignee": null,
+      "status": "New",
+      "type": "PBI",
+      "iteration": "Sprint 4",
+      "start": "2026-12-07",
+      "end": "2026-12-20",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 4"
+    },
+    {
+      "number": 32,
+      "title": "As a customer, I would like to have the ability to send my items as gift",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/32",
+      "assignee": null,
+      "status": "Done",
+      "type": "PBI",
+      "iteration": "Sprint 2",
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "area": "PUL-Web",
+      "team": "PUL-Web",
+      "milestone": "Sprint 2"
+    }
+  ]
+}
