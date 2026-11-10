@@ -16,7 +16,7 @@
 <h2>Документация</h2>
 <ul><li><a href="{{ '/' | relative_url }}">Обзор</a></li><li><a href="{{ '/our-team/' | relative_url }}">Our team</a></li></ul>
 <h2>Предстоящие события</h2>
-<ul id="event-navigation">
+<ul id="event-navigation" data-event-list>
 {% assign event_pages = site.pages | where: "section", "events" | sort: "source_name" %}
 {% for event_page in event_pages %}<li data-page="{{ event_page.source_name | escape }}"><a href="{{ event_page.url | relative_url }}">{{ event_page.title | escape }}</a></li>{% endfor %}
 </ul>
@@ -28,16 +28,18 @@
 <footer>StudyFlow · Учебный проект по программной инженерии</footer>
 <script>
 (function(){
-  const list=document.getElementById('event-navigation');
-  if(!list || list.children.length===0) return;
+  const lists=Array.from(document.querySelectorAll('[data-event-list]')).filter(list=>list.children.length>0);
+  if(lists.length===0) return;
   fetch({{ '/Предстоящие-события/.order' | relative_url | jsonify }},{cache:'no-cache'})
     .then(r=>r.ok?r.text():null)
     .then(text=>{
       if(text===null) return;
       const names=text.split(/\r?\n/).map(x=>x.trim()).filter(x=>x && !x.startsWith('#'));
       const rank=new Map(names.map((name,i)=>[name,i]));
-      Array.from(list.children).sort((a,b)=>(rank.get(a.dataset.page)??Number.MAX_SAFE_INTEGER)-(rank.get(b.dataset.page)??Number.MAX_SAFE_INTEGER)).forEach(node=>list.appendChild(node));
-      list.dataset.orderSource='.order';
+      lists.forEach(list=>{
+        Array.from(list.children).sort((a,b)=>(rank.get(a.dataset.page)??Number.MAX_SAFE_INTEGER)-(rank.get(b.dataset.page)??Number.MAX_SAFE_INTEGER)).forEach(node=>list.appendChild(node));
+        list.dataset.orderSource='.order';
+      });
     }).catch(()=>{});
 })();
 </script>
