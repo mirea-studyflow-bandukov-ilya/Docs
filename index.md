@@ -13,9 +13,9 @@ title: Документация
 ## Предстоящие события
 
 {% assign events = site.pages | where: "section", "events" | sort: "source_name" %}
-{% for event in events %}
-- [{{ event.title }}]({{ event.url | relative_url }})
-{% endfor %}
+<ul data-event-list>
+{% for event in events %}<li data-page="{{ event.source_name | escape }}"><a href="{{ event.url | relative_url }}">{{ event.title | escape }}</a></li>{% endfor %}
+</ul>
 
 Даты событий — учебные примеры, а не официальный график занятий.
 
