@@ -1,0 +1,126 @@
+{
+  "asOf": "2026-11-11",
+  "team": "PUL-Web",
+  "title": "Обучение продукту",
+  "sprint": {
+    "name": "Sprint 2",
+    "start": "2026-11-09",
+    "end": "2026-11-22",
+    "workingDays": 10,
+    "daysOff": 5,
+    "hoursPerDay": 1
+  },
+  "wipLimit": 1,
+  "definitionOfDone": "Проходит **все** тесты; критерии приёмки проверены; блокирующих дефектов нет.",
+  "stories": [
+    {
+      "assignee": "Bankin1",
+      "effort": 5,
+      "iteration": "Sprint 2",
+      "labels": "area:PUL-Webpractice:2.1uxданные",
+      "qaPhase": null,
+      "serviceClass": "Обычная",
+      "status": "Approved",
+      "ticketId": "PUL-001",
+      "title": "Как клиент, я хочу просмотреть новые учебники",
+      "type": "PBI",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/174"
+    },
+    {
+      "assignee": null,
+      "effort": 3,
+      "iteration": "Sprint 2",
+      "labels": "area:PUL-Webpractice:2.1",
+      "qaPhase": "Doing",
+      "serviceClass": "Ускоренная",
+      "status": "Утверждено QA",
+      "ticketId": "PUL-002",
+      "title": "Как клиент, я хочу видеть недавно просмотренные учебники",
+      "type": "PBI",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/175"
+    },
+    {
+      "assignee": null,
+      "effort": 2,
+      "iteration": "Sprint 2",
+      "labels": "area:PUL-Webpractice:2.1",
+      "qaPhase": "Done",
+      "serviceClass": "Обычная",
+      "status": "Утверждено QA",
+      "ticketId": "PUL-003",
+      "title": "Как клиент, я хочу запрашивать новые материалы",
+      "type": "PBI",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/176"
+    }
+  ],
+  "tasks": [
+    {
+      "activity": "Development",
+      "area": "PUL-Web",
+      "assignee": "Bankin1",
+      "iteration": "Sprint 2",
+      "remainingWork": 8,
+      "status": "New",
+      "title": "Добавить страницу для самых последних учебников",
+      "type": "Task",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/177"
+    },
+    {
+      "activity": "Design",
+      "area": "PUL-Web/Data",
+      "assignee": null,
+      "iteration": "Sprint 2",
+      "remainingWork": 3,
+      "status": "New",
+      "title": "Оптимизация запроса к данным для последних учебников",
+      "type": "Task",
+      "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/178"
+    }
+  ],
+  "views": [
+    {
+      "name": "Backlog · иерархия",
+      "path": "/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/1"
+    },
+    {
+      "name": "PUL-Web · Scrum",
+      "path": "/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/2"
+    },
+    {
+      "name": "PUL-Web · Features",
+      "path": "/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/3"
+    },
+    {
+      "name": "Sprint 2 · Люди",
+      "path": "/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/4"
+    },
+    {
+      "name": "Канбан · PUL-Web",
+      "path": "/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/5"
+    },
+    {
+      "name": "Процесс · Мой Scrum",
+      "path": "/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/6"
+    },
+    {
+      "name": "QA · Doing / Done",
+      "path": "/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/7"
+    },
+    {
+      "name": "Веб-задачи",
+      "path": "/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/8"
+    }
+  ],
+  "charts": {
+    "assignment": "https://github.com/orgs/mirea-studyflow-bandukov-ilya/projects/1/insights/1",
+    "effort": "https://github.com/orgs/mirea-studyflow-bandukov-ilya/projects/1/insights/2"
+  },
+  "ticketField": {
+    "id": 49726064,
+    "name": "PUL Ticket ID",
+    "displayLabel": "Ticket ID",
+    "group": "PartsUnlimitedGroup",
+    "pinnedType": "PBI",
+    "visibility": "Organization only"
+  }
+}
