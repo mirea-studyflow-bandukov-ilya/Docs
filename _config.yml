@@ -1,0 +1,12 @@
+title: Документация StudyFlow
+description: Команда и предстоящие события учебного проекта
+url: https://mirea-studyflow-bandukov-ilya.github.io
+baseurl: /Docs
+markdown: kramdown
+include:
+  - Предстоящие-события/.order
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
