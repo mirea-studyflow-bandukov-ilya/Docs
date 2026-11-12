@@ -2,8 +2,8 @@
   "title": "Поставка Веб-приложения",
   "asOf": "2026-11-11",
   "snapshot": true,
-  "source": "Authenticated DOM exports of native GitHub Project view 9, captured before and after replanning",
-  "baselineNote": "The six active PBIs were captured before replanning. Closed control #32 was added afterward and is displayed unchanged in both scenarios.",
+  "source": "Данные представления GitHub Projects № 9 до и после изменения плана",
+  "baselineNote": "Шесть открытых карточек зафиксированы до изменения плана. Закрытая карточка № 32 добавлена позже и показана в обоих сценариях.",
   "links": {
     "roadmap": "https://github.com/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/10",
     "table": "https://github.com/orgs/mirea-studyflow-bandukov-ilya/projects/1/views/9",
@@ -140,7 +140,7 @@
     },
     {
       "number": 31,
-      "title": "Provide customers the ability to track status of the package",
+      "title": "Дать покупателям возможность отслеживать статус посылки",
       "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/31",
       "assignee": null,
       "status": "New",
@@ -154,7 +154,7 @@
     },
     {
       "number": 32,
-      "title": "As a customer, I would like to have the ability to send my items as gift",
+      "title": "Дать покупателям возможность отправлять товары в подарок",
       "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/32",
       "assignee": null,
       "status": "Done",
@@ -240,7 +240,7 @@
     },
     {
       "number": 31,
-      "title": "Provide customers the ability to track status of the package",
+      "title": "Дать покупателям возможность отслеживать статус посылки",
       "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/31",
       "assignee": null,
       "status": "New",
@@ -254,7 +254,7 @@
     },
     {
       "number": 32,
-      "title": "As a customer, I would like to have the ability to send my items as gift",
+      "title": "Дать покупателям возможность отправлять товары в подарок",
       "url": "https://github.com/mirea-studyflow-bandukov-ilya/studyflow/issues/32",
       "assignee": null,
       "status": "Done",
